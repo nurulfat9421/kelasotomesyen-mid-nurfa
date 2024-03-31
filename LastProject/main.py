@@ -27,8 +27,8 @@ admin = Admin(driver)
 add_user= Add(driver)
 
 #Login
-login.input_username(username)
-login.input_password(password)
+login.input_username(username='Admin')
+login.input_password(password='admin123')
 login.click_login()
 
 
